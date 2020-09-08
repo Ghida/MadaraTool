@@ -1,0 +1,37 @@
+{
+  "database": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "password": "123456",
+    "database": "madara",
+    "charset": "utf8mb4"
+  },
+  "s3": {
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "bucketName": ""
+  },
+  "bunnycdn": {
+    "AccessKey": "",
+    "ReadPassword": "",
+    "storageZoneName": "",
+    "pullZone": ""
+  },
+  "use_storage": "local",
+  "uploads_path": "D:\\PROJECT\\GDA\\MANGA\\manga-data\\",
+  "server": {
+    "port": 2004
+  },
+  "tables": {
+    "chapter": "wp_manga_chapters",
+    "chapter_data": "wp_manga_chapters_data",
+    "post": "wp_posts",
+    "post_meta": "wp_postmeta",
+    "term_relationship": "wp_term_relationships",
+    "options": "wp_options"
+  },
+  "domain": "https://domain.com",
+  "hardCodeTermRelationship": [
+
+  ]
+}
